@@ -45,7 +45,6 @@ class UserProfileView(DetailView):
 
 
 def redirect_to_user_profile(request):
-    # После успешной регистрации перенаправляем на страницу профиля пользователя
     return redirect('user_profile')
 
 

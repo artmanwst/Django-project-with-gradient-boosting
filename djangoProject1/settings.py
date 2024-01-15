@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-uw4pa&iiyf7gmpc9xti(y6u-0#9+)w6)4r75+0me52+l@ktreb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost','127.0.0.1']
 
 
 # Application definition
@@ -76,7 +76,6 @@ WSGI_APPLICATION = 'djangoProject1.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
